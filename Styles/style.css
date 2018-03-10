@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -71,4 +77,18 @@ header {
 
 .justify-center {
     justify-content: center;
+}
+
+header nav a {
+   color: #3d3d3d;
+   text-decoration: none;
+   margin-right: 36px;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+.header-logo-col {
+    margin-top: 51px;
 }
