@@ -145,9 +145,21 @@ header nav a:last-child {
 }
 
 .main-item-btn-dark {
+    width: 100%;
     background-color: #3d3d3d;
     border: solid 1px #979797;
+    padding: 15px 0;
+    text-align: center;
     color: #b9b9b9;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.main-item-btn-dark:hover {
+    cursor: pointer;
+    background-color: #616161;
+    border: solid 1px #979797;
+    color: white;
     transition: 0.2s;
 }
 
@@ -408,4 +420,9 @@ li {
 
 ul {
     margin: 0px;
+}
+
+a { 
+    text-decoration: none; 
+    color: #b9b9b9;
 }
