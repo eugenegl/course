@@ -191,6 +191,7 @@ footer {
     background-color: #3d3d3d;
     padding: 40px 0;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .footer-links {
@@ -204,4 +205,8 @@ footer {
 
 .footer-links a:last-child {
   margin-right: 0;
+}
+
+.rights {
+    font-size: 12px;
 }
