@@ -164,12 +164,13 @@ header nav a:last-child {
 }
 
 .card {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  border: 1px solid #979797;
-  padding: 22px;
-  margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid #C3BDBD;
+    background-color: #F5F5F5;
+    padding: 22px;
+    margin-bottom: 20px;
 }
 
 .card-img {
@@ -271,7 +272,12 @@ footer {
   .col-sm-12 {
     width: 100%;
   }
-
+    .desc {
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    }
+    
 }
 
 @media(max-width: 768px) {
@@ -322,6 +328,12 @@ footer {
   .col-xs-12 {
     width: 100%;
   }
+    
+    .desc {
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    }
 
 }
 
@@ -336,29 +348,16 @@ footer {
     .footer-links {
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
   }
     .footer-links a {
         margin-bottom: 10px;
   }
+    .rights {
+        margin-top: 10px;
+    }
 }
 
-html,
-body {
-  height: 100%;
-}
-#wrap {
-  min-height: 100%;
-}
-main {
-  padding-bottom: 100px;
-  /*Высота футера*/
-}
-footer {
-  margin-top: -80px;
-  /*Минус Высота футера*/
-  height: 50px;
-  /*Высота футера*/
-}
 
 .product-bg {
     display: flex;
@@ -425,4 +424,70 @@ ul {
 a { 
     text-decoration: none; 
     color: #b9b9b9;
+}
+
+.h2-popular-items {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.item-cards {
+    justify-content: space-between;
+}
+
+.item-img {
+    width: 111px;
+    height: 178px;
+    margin-bottom: 30px;
+    display: flex;
+    align-self: center;
+}
+
+.vk {
+    width: 220px;
+    height: 63px;
+    background-color: #5f81a9;
+}
+
+.vk-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.fb {
+    width: 220px;
+    height: 63px;
+    background-color: #3a589c;
+}
+
+.fb-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tg {
+    width: 220px;
+    height: 63px;
+    background-color: #419fd9;
+}
+
+.tg-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.md {
+    width: 220px;
+    height: 63px;
+    background-color: #00e272;
+}
+
+.md-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.social-btns {
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
