@@ -446,52 +446,58 @@ a {
     align-self: center;
 }
 
-.vk {
-    width: 220px;
+.social-btns {
+    margin-bottom: 50px;
+}
+
+.btn-vk {
+    width: 100%;
+    display: flex;
     height: 63px;
     background-color: #5f81a9;
+    margin-bottom: 20px;
 }
 
 .vk-img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.fb {
-    width: 220px;
+.btn-fb {
+    width: 100%;
+    display: flex;
     height: 63px;
     background-color: #3a589c;
+    margin-bottom: 20px;
 }
 
 .fb-img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.tg {
-    width: 220px;
+.btn-tg {
+    width: 100%;
+    display: flex;
     height: 63px;
     background-color: #419fd9;
+    margin-bottom: 20px;
 }
 
 .tg-img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.md {
-    width: 220px;
+.btn-md {
+    width: 100%;
+    display: flex;
     height: 63px;
     background-color: #00e272;
+    margin-bottom: 20px;
 }
 
 .md-img {
-    display: block;
-    margin: 0 auto;
-}
-
-.social-btns {
-    max-width: 100%;
-    justify-content: space-between;
-    margin-bottom: 50px;
+  display: block;
+  margin: 0 auto;
 }
