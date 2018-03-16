@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-  max-width: 940px;
-  margin: 0 auto;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .row {
@@ -345,9 +346,6 @@ footer {
 }
 
 @media(max-width: 768px) {
-    .container {
-    padding: 10px;
-  }
     
     header nav {
         display: flex;
@@ -378,7 +376,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 40px;
     margin-top: 49px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .desc {
@@ -393,7 +391,7 @@ footer {
 
 h2 {
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .prod {
@@ -402,15 +400,13 @@ h2 {
 }
 
 li {
-    margin-top: 18px;
     text-align: left;
-    width: 260px;
-    height: 24px;
-    font-size: 14px;
+    font-size: 18px;
+    margin-bottom: 20px
 }
 
 .item-btn {
-    width: 283px;
+    width: 100%;
     border: 1px solid #3d3d3d;
     padding: 15px 0;
     text-align: center;
@@ -418,7 +414,8 @@ li {
     color: #3d3d3d;
     font-size: 20px;
     transition: 0.2s;
-    margin-top: 72px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .item-btn:hover {
@@ -429,7 +426,9 @@ li {
 }
 
 ul {
+    padding: 0;
     margin: 0px;
+    list-style-type: none;
 }
 
 a { 
@@ -439,7 +438,6 @@ a {
 
 .h2-popular-items {
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 .item-cards {
